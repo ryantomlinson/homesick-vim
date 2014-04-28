@@ -23,6 +23,8 @@ setlocal numberwidth=5
 " Display extra whitespace
 set list listchars=tab:»·,trail:·
 
+" Disable readonly mode in vimdiff
+set noro
 
 " Nice statusbar
 set laststatus=2
