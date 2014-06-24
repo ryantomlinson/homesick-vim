@@ -73,3 +73,6 @@
 [submodule "home/.vim/bundle/supertab"]
 	path = home/.vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "home/.vim/bundle/vim-puppet"]
+	path = home/.vim/bundle/vim-puppet
+	url = git://github.com/rodjek/vim-puppet.git
