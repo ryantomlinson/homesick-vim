@@ -15,6 +15,8 @@ set hlsearch
 set showmatch " flash matching brackets
 set smarttab
 
+set clipboard=unnamedplus
+
 set directory=/tmp/
 
 set number
