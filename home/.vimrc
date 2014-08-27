@@ -101,6 +101,17 @@ au BufRead,BufNewFile .caprc set ft=ruby
 au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
 augroup END
 
+
+" golang maps
+au FileType go nmap <Leader>gd <Plug>(go-doc)
+au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
+au FileType go nmap <leader>r <Plug>(go-run)
+au FileType go nmap <leader>b <Plug>(go-build)
+au FileType go nmap <leader>t <Plug>(go-test)
+au FileType go nmap <leader>c <Plug>(go-coverage)
+au FileType go nmap gd <Plug>(go-def)
+
+
  " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event handler
 " (happens when dropping a file on gvim).
